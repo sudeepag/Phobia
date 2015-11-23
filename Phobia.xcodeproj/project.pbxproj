@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07BA2771C00E35B0086B555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2761C00E35B0086B555 /* AppDelegate.swift */; };
+		C07BA2791C00E35B0086B555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2781C00E35B0086B555 /* ViewController.swift */; };
+		C07BA27C1C00E35B0086B555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07BA27A1C00E35B0086B555 /* Main.storyboard */; };
+		C07BA27E1C00E35B0086B555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07BA27D1C00E35B0086B555 /* Assets.xcassets */; };
+		C07BA2811C00E35B0086B555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07BA27F1C00E35B0086B555 /* LaunchScreen.storyboard */; };
+		C07BA28C1C00E35B0086B555 /* PhobiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA28B1C00E35B0086B555 /* PhobiaTests.swift */; };
+		C07BA2971C00E35B0086B555 /* PhobiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2961C00E35B0086B555 /* PhobiaUITests.swift */; };
+		C07BA2A51C0148E70086B555 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2A41C0148E70086B555 /* WordViewController.swift */; };
+		C07BA2A71C0151E10086B555 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2A61C0151E10086B555 /* Word.swift */; };
+		C07BA2AB1C0152B40086B555 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2AA1C0152B40086B555 /* WordManager.swift */; };
+		C07BA2AD1C01586F0086B555 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2AC1C01586F0086B555 /* Extensions.swift */; };
+		C07BA2B11C015A240086B555 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B01C015A240086B555 /* User.swift */; };
+		C07BA2B31C0165490086B555 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B21C0165490086B555 /* UserManager.swift */; };
+		C07BA2B51C0167AD0086B555 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B41C0167AD0086B555 /* Data.swift */; };
+		C07BA2B71C016EAE0086B555 /* PhobiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B61C016EAE0086B555 /* PhobiaViewController.swift */; };
+		C92ECA98B1B7AADF880FB878 /* Pods_Phobia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F93EBB8FC9471643625A77 /* Pods_Phobia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07BA2881C00E35B0086B555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07BA26B1C00E35B0086B555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07BA2721C00E35B0086B555;
+			remoteInfo = Phobia;
+		};
+		C07BA2931C00E35B0086B555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07BA26B1C00E35B0086B555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07BA2721C00E35B0086B555;
+			remoteInfo = Phobia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18191C139E865A182103C45F /* Pods-Phobia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phobia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phobia/Pods-Phobia.release.xcconfig"; sourceTree = "<group>"; };
+		36F93EBB8FC9471643625A77 /* Pods_Phobia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phobia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07BA2731C00E35B0086B555 /* Phobia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phobia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07BA2761C00E35B0086B555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07BA2781C00E35B0086B555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C07BA27B1C00E35B0086B555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07BA27D1C00E35B0086B555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07BA2801C00E35B0086B555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07BA2821C00E35B0086B555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07BA2871C00E35B0086B555 /* PhobiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhobiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07BA28B1C00E35B0086B555 /* PhobiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaTests.swift; sourceTree = "<group>"; };
+		C07BA28D1C00E35B0086B555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07BA2921C00E35B0086B555 /* PhobiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhobiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07BA2961C00E35B0086B555 /* PhobiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhobiaUITests.swift; sourceTree = "<group>"; };
+		C07BA2981C00E35B0086B555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07BA2A41C0148E70086B555 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		C07BA2A61C0151E10086B555 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		C07BA2AA1C0152B40086B555 /* WordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordManager.swift; path = ../WordManager.swift; sourceTree = "<group>"; };
+		C07BA2AC1C01586F0086B555 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C07BA2B01C015A240086B555 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C07BA2B21C0165490086B555 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		C07BA2B41C0167AD0086B555 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C07BA2B61C016EAE0086B555 /* PhobiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhobiaViewController.swift; sourceTree = "<group>"; };
+		C1012F19DCD70FEAB565CFCB /* Pods-Phobia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phobia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phobia/Pods-Phobia.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07BA2701C00E35B0086B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92ECA98B1B7AADF880FB878 /* Pods_Phobia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA2841C00E35B0086B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA28F1C00E35B0086B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8430049728E02B36B4F3800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1012F19DCD70FEAB565CFCB /* Pods-Phobia.debug.xcconfig */,
+				18191C139E865A182103C45F /* Pods-Phobia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AECCC173F2A495C1DAFF48ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F93EBB8FC9471643625A77 /* Pods_Phobia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07BA26A1C00E35B0086B555 = {
+			isa = PBXGroup;
+			children = (
+				C07BA2751C00E35B0086B555 /* Phobia */,
+				C07BA28A1C00E35B0086B555 /* PhobiaTests */,
+				C07BA2951C00E35B0086B555 /* PhobiaUITests */,
+				C07BA2741C00E35B0086B555 /* Products */,
+				A8430049728E02B36B4F3800 /* Pods */,
+				AECCC173F2A495C1DAFF48ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C07BA2741C00E35B0086B555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07BA2731C00E35B0086B555 /* Phobia.app */,
+				C07BA2871C00E35B0086B555 /* PhobiaTests.xctest */,
+				C07BA2921C00E35B0086B555 /* PhobiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07BA2751C00E35B0086B555 /* Phobia */ = {
+			isa = PBXGroup;
+			children = (
+				C07BA2761C00E35B0086B555 /* AppDelegate.swift */,
+				C07BA2781C00E35B0086B555 /* ViewController.swift */,
+				C07BA2B41C0167AD0086B555 /* Data.swift */,
+				C07BA2A61C0151E10086B555 /* Word.swift */,
+				C07BA2AA1C0152B40086B555 /* WordManager.swift */,
+				C07BA2B01C015A240086B555 /* User.swift */,
+				C07BA2B21C0165490086B555 /* UserManager.swift */,
+				C07BA2AC1C01586F0086B555 /* Extensions.swift */,
+				C07BA27A1C00E35B0086B555 /* Main.storyboard */,
+				C07BA2A41C0148E70086B555 /* WordViewController.swift */,
+				C07BA27D1C00E35B0086B555 /* Assets.xcassets */,
+				C07BA27F1C00E35B0086B555 /* LaunchScreen.storyboard */,
+				C07BA2821C00E35B0086B555 /* Info.plist */,
+				C07BA2B61C016EAE0086B555 /* PhobiaViewController.swift */,
+			);
+			path = Phobia;
+			sourceTree = "<group>";
+		};
+		C07BA28A1C00E35B0086B555 /* PhobiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07BA28B1C00E35B0086B555 /* PhobiaTests.swift */,
+				C07BA28D1C00E35B0086B555 /* Info.plist */,
+			);
+			path = PhobiaTests;
+			sourceTree = "<group>";
+		};
+		C07BA2951C00E35B0086B555 /* PhobiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07BA2961C00E35B0086B555 /* PhobiaUITests.swift */,
+				C07BA2981C00E35B0086B555 /* Info.plist */,
+			);
+			path = PhobiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07BA2721C00E35B0086B555 /* Phobia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07BA29B1C00E35B0086B555 /* Build configuration list for PBXNativeTarget "Phobia" */;
+			buildPhases = (
+				C283D0C8DA7DD89E086FF691 /* Check Pods Manifest.lock */,
+				C07BA26F1C00E35B0086B555 /* Sources */,
+				C07BA2701C00E35B0086B555 /* Frameworks */,
+				C07BA2711C00E35B0086B555 /* Resources */,
+				2923CA477919B666166A7772 /* Embed Pods Frameworks */,
+				41D77623B9616A76B687D816 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phobia;
+			productName = Phobia;
+			productReference = C07BA2731C00E35B0086B555 /* Phobia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07BA2861C00E35B0086B555 /* PhobiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07BA29E1C00E35B0086B555 /* Build configuration list for PBXNativeTarget "PhobiaTests" */;
+			buildPhases = (
+				C07BA2831C00E35B0086B555 /* Sources */,
+				C07BA2841C00E35B0086B555 /* Frameworks */,
+				C07BA2851C00E35B0086B555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07BA2891C00E35B0086B555 /* PBXTargetDependency */,
+			);
+			name = PhobiaTests;
+			productName = PhobiaTests;
+			productReference = C07BA2871C00E35B0086B555 /* PhobiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07BA2911C00E35B0086B555 /* PhobiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07BA2A11C00E35B0086B555 /* Build configuration list for PBXNativeTarget "PhobiaUITests" */;
+			buildPhases = (
+				C07BA28E1C00E35B0086B555 /* Sources */,
+				C07BA28F1C00E35B0086B555 /* Frameworks */,
+				C07BA2901C00E35B0086B555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07BA2941C00E35B0086B555 /* PBXTargetDependency */,
+			);
+			name = PhobiaUITests;
+			productName = PhobiaUITests;
+			productReference = C07BA2921C00E35B0086B555 /* PhobiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07BA26B1C00E35B0086B555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sudeep Agarwal";
+				TargetAttributes = {
+					C07BA2721C00E35B0086B555 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QHU9DM58K6;
+					};
+					C07BA2861C00E35B0086B555 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C07BA2721C00E35B0086B555;
+					};
+					C07BA2911C00E35B0086B555 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C07BA2721C00E35B0086B555;
+					};
+				};
+			};
+			buildConfigurationList = C07BA26E1C00E35B0086B555 /* Build configuration list for PBXProject "Phobia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07BA26A1C00E35B0086B555;
+			productRefGroup = C07BA2741C00E35B0086B555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07BA2721C00E35B0086B555 /* Phobia */,
+				C07BA2861C00E35B0086B555 /* PhobiaTests */,
+				C07BA2911C00E35B0086B555 /* PhobiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07BA2711C00E35B0086B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07BA2811C00E35B0086B555 /* LaunchScreen.storyboard in Resources */,
+				C07BA27E1C00E35B0086B555 /* Assets.xcassets in Resources */,
+				C07BA27C1C00E35B0086B555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA2851C00E35B0086B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA2901C00E35B0086B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2923CA477919B666166A7772 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phobia/Pods-Phobia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D77623B9616A76B687D816 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phobia/Pods-Phobia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C283D0C8DA7DD89E086FF691 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07BA26F1C00E35B0086B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07BA2AB1C0152B40086B555 /* WordManager.swift in Sources */,
+				C07BA2AD1C01586F0086B555 /* Extensions.swift in Sources */,
+				C07BA2A51C0148E70086B555 /* WordViewController.swift in Sources */,
+				C07BA2A71C0151E10086B555 /* Word.swift in Sources */,
+				C07BA2791C00E35B0086B555 /* ViewController.swift in Sources */,
+				C07BA2771C00E35B0086B555 /* AppDelegate.swift in Sources */,
+				C07BA2B31C0165490086B555 /* UserManager.swift in Sources */,
+				C07BA2B71C016EAE0086B555 /* PhobiaViewController.swift in Sources */,
+				C07BA2B51C0167AD0086B555 /* Data.swift in Sources */,
+				C07BA2B11C015A240086B555 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA2831C00E35B0086B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07BA28C1C00E35B0086B555 /* PhobiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07BA28E1C00E35B0086B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07BA2971C00E35B0086B555 /* PhobiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07BA2891C00E35B0086B555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07BA2721C00E35B0086B555 /* Phobia */;
+			targetProxy = C07BA2881C00E35B0086B555 /* PBXContainerItemProxy */;
+		};
+		C07BA2941C00E35B0086B555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07BA2721C00E35B0086B555 /* Phobia */;
+			targetProxy = C07BA2931C00E35B0086B555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C07BA27A1C00E35B0086B555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07BA27B1C00E35B0086B555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07BA27F1C00E35B0086B555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07BA2801C00E35B0086B555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07BA2991C00E35B0086B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07BA29A1C00E35B0086B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07BA29C1C00E35B0086B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1012F19DCD70FEAB565CFCB /* Pods-Phobia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Phobia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.Phobia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C07BA29D1C00E35B0086B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18191C139E865A182103C45F /* Pods-Phobia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Phobia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.Phobia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C07BA29F1C00E35B0086B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhobiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.PhobiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phobia.app/Phobia";
+			};
+			name = Debug;
+		};
+		C07BA2A01C00E35B0086B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhobiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.PhobiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phobia.app/Phobia";
+			};
+			name = Release;
+		};
+		C07BA2A21C00E35B0086B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhobiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.PhobiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Phobia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C07BA2A31C00E35B0086B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhobiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SudeepAgarwal.PhobiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Phobia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07BA26E1C00E35B0086B555 /* Build configuration list for PBXProject "Phobia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07BA2991C00E35B0086B555 /* Debug */,
+				C07BA29A1C00E35B0086B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07BA29B1C00E35B0086B555 /* Build configuration list for PBXNativeTarget "Phobia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07BA29C1C00E35B0086B555 /* Debug */,
+				C07BA29D1C00E35B0086B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07BA29E1C00E35B0086B555 /* Build configuration list for PBXNativeTarget "PhobiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07BA29F1C00E35B0086B555 /* Debug */,
+				C07BA2A01C00E35B0086B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07BA2A11C00E35B0086B555 /* Build configuration list for PBXNativeTarget "PhobiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07BA2A21C00E35B0086B555 /* Debug */,
+				C07BA2A31C00E35B0086B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07BA26B1C00E35B0086B555 /* Project object */;
+}

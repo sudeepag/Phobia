@@ -1,0 +1,16 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - Alamofire (3.1.2)
+  - mailgun (1.0.3):
+    - AFNetworking (~> 1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - mailgun (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: e6427e782b25a2289d909960df8ef41358b3277c
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  mailgun: 17290deea4db24050dd03ca59cd7385d508904b3
+
+COCOAPODS: 0.39.0
