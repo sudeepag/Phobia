@@ -16,12 +16,12 @@
 		C07BA2971C00E35B0086B555 /* PhobiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2961C00E35B0086B555 /* PhobiaUITests.swift */; };
 		C07BA2A51C0148E70086B555 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2A41C0148E70086B555 /* WordViewController.swift */; };
 		C07BA2A71C0151E10086B555 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2A61C0151E10086B555 /* Word.swift */; };
-		C07BA2AB1C0152B40086B555 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2AA1C0152B40086B555 /* WordManager.swift */; };
 		C07BA2AD1C01586F0086B555 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2AC1C01586F0086B555 /* Extensions.swift */; };
 		C07BA2B11C015A240086B555 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B01C015A240086B555 /* User.swift */; };
 		C07BA2B31C0165490086B555 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B21C0165490086B555 /* UserManager.swift */; };
 		C07BA2B51C0167AD0086B555 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B41C0167AD0086B555 /* Data.swift */; };
 		C07BA2B71C016EAE0086B555 /* PhobiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BA2B61C016EAE0086B555 /* PhobiaViewController.swift */; };
+		C0F4A90C1C049BBF00414CD4 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4A90B1C049BBF00414CD4 /* WordManager.swift */; };
 		C92ECA98B1B7AADF880FB878 /* Pods_Phobia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F93EBB8FC9471643625A77 /* Pods_Phobia.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,12 +60,12 @@
 		C07BA2981C00E35B0086B555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07BA2A41C0148E70086B555 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 		C07BA2A61C0151E10086B555 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		C07BA2AA1C0152B40086B555 /* WordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordManager.swift; path = ../WordManager.swift; sourceTree = "<group>"; };
 		C07BA2AC1C01586F0086B555 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C07BA2B01C015A240086B555 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C07BA2B21C0165490086B555 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		C07BA2B41C0167AD0086B555 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C07BA2B61C016EAE0086B555 /* PhobiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhobiaViewController.swift; sourceTree = "<group>"; };
+		C0F4A90B1C049BBF00414CD4 /* WordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
 		C1012F19DCD70FEAB565CFCB /* Pods-Phobia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phobia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phobia/Pods-Phobia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 				C07BA2781C00E35B0086B555 /* ViewController.swift */,
 				C07BA2B41C0167AD0086B555 /* Data.swift */,
 				C07BA2A61C0151E10086B555 /* Word.swift */,
-				C07BA2AA1C0152B40086B555 /* WordManager.swift */,
+				C0F4A90B1C049BBF00414CD4 /* WordManager.swift */,
 				C07BA2B01C015A240086B555 /* User.swift */,
 				C07BA2B21C0165490086B555 /* UserManager.swift */,
 				C07BA2AC1C01586F0086B555 /* Extensions.swift */,
@@ -356,12 +356,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07BA2AB1C0152B40086B555 /* WordManager.swift in Sources */,
 				C07BA2AD1C01586F0086B555 /* Extensions.swift in Sources */,
 				C07BA2A51C0148E70086B555 /* WordViewController.swift in Sources */,
 				C07BA2A71C0151E10086B555 /* Word.swift in Sources */,
 				C07BA2791C00E35B0086B555 /* ViewController.swift in Sources */,
 				C07BA2771C00E35B0086B555 /* AppDelegate.swift in Sources */,
+				C0F4A90C1C049BBF00414CD4 /* WordManager.swift in Sources */,
 				C07BA2B31C0165490086B555 /* UserManager.swift in Sources */,
 				C07BA2B71C016EAE0086B555 /* PhobiaViewController.swift in Sources */,
 				C07BA2B51C0167AD0086B555 /* Data.swift in Sources */,
